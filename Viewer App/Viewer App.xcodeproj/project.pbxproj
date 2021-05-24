@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5451B9AE26493BAA00470B5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5451B9AD26493BAA00470B5F /* AppDelegate.m */; };
+		5451B9B126493BAA00470B5F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5451B9B026493BAA00470B5F /* SceneDelegate.m */; };
+		5451B9B426493BAA00470B5F /* ParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5451B9B326493BAA00470B5F /* ParentViewController.m */; };
+		5451B9B926493BAC00470B5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5451B9B826493BAC00470B5F /* Assets.xcassets */; };
+		5451B9BC26493BAC00470B5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5451B9BA26493BAC00470B5F /* LaunchScreen.storyboard */; };
+		5451B9BF26493BAC00470B5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5451B9BE26493BAC00470B5F /* main.m */; };
+		5475DFAC26498E3C0094B7DA /* adventures-of-sherlock-holmes.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5475DFAB26498E3C0094B7DA /* adventures-of-sherlock-holmes.pdf */; };
+		5475DFB026498E4B0094B7DA /* contents.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5475DFAF26498E4B0094B7DA /* contents.xml */; };
+		5475DFB226498E5C0094B7DA /* relativity.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5475DFB126498E5C0094B7DA /* relativity.pdf */; };
+		5480CC23264C380500C5D558 /* PDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5480CC22264C380500C5D558 /* PDFViewController.m */; };
+		5480CC27264C4DF200C5D558 /* Constants.h in Sources */ = {isa = PBXBuildFile; fileRef = 5480CC26264C4DF200C5D558 /* Constants.h */; };
+		54A9E0EC264B50FC00C41498 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A9E0EB264B50FC00C41498 /* ImageViewController.m */; };
+		54A9E0F1264B567D00C41498 /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A9E0F0264B567C00C41498 /* Data.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5451B9A926493BAA00470B5F /* Viewer App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Viewer App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5451B9AC26493BAA00470B5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5451B9AD26493BAA00470B5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5451B9AF26493BAA00470B5F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		5451B9B026493BAA00470B5F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		5451B9B226493BAA00470B5F /* ParentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParentViewController.h; sourceTree = "<group>"; };
+		5451B9B326493BAA00470B5F /* ParentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParentViewController.m; sourceTree = "<group>"; };
+		5451B9B826493BAC00470B5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5451B9BB26493BAC00470B5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5451B9BD26493BAC00470B5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5451B9BE26493BAC00470B5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5475DFAB26498E3C0094B7DA /* adventures-of-sherlock-holmes.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "adventures-of-sherlock-holmes.pdf"; sourceTree = "<group>"; };
+		5475DFAF26498E4B0094B7DA /* contents.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = contents.xml; sourceTree = "<group>"; };
+		5475DFB126498E5C0094B7DA /* relativity.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = relativity.pdf; sourceTree = "<group>"; };
+		5480CC21264C380500C5D558 /* PDFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDFViewController.h; sourceTree = "<group>"; };
+		5480CC22264C380500C5D558 /* PDFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFViewController.m; sourceTree = "<group>"; };
+		5480CC26264C4DF200C5D558 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		54A9E0EA264B50FC00C41498 /* ImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		54A9E0EB264B50FC00C41498 /* ImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		54A9E0EF264B567C00C41498 /* Data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
+		54A9E0F0264B567C00C41498 /* Data.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5451B9A626493BAA00470B5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5451B9A026493BAA00470B5F = {
+			isa = PBXGroup;
+			children = (
+				5451B9AB26493BAA00470B5F /* Viewer App */,
+				5451B9AA26493BAA00470B5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5451B9AA26493BAA00470B5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5451B9A926493BAA00470B5F /* Viewer App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5451B9AB26493BAA00470B5F /* Viewer App */ = {
+			isa = PBXGroup;
+			children = (
+				5475DFAF26498E4B0094B7DA /* contents.xml */,
+				5480CC26264C4DF200C5D558 /* Constants.h */,
+				5480CC24264C442A00C5D558 /* Model */,
+				54A9E0F2264B81B200C41498 /* ViewControllers */,
+				5480CC25264C444F00C5D558 /* PDF files */,
+				5451B9BA26493BAC00470B5F /* LaunchScreen.storyboard */,
+				5451B9B826493BAC00470B5F /* Assets.xcassets */,
+				5451B9BD26493BAC00470B5F /* Info.plist */,
+				5480CC28264C551000C5D558 /* AppSceneDelegates */,
+				5451B9BE26493BAC00470B5F /* main.m */,
+			);
+			path = "Viewer App";
+			sourceTree = "<group>";
+		};
+		5480CC24264C442A00C5D558 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				54A9E0EF264B567C00C41498 /* Data.h */,
+				54A9E0F0264B567C00C41498 /* Data.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5480CC25264C444F00C5D558 /* PDF files */ = {
+			isa = PBXGroup;
+			children = (
+				5475DFB126498E5C0094B7DA /* relativity.pdf */,
+				5475DFAB26498E3C0094B7DA /* adventures-of-sherlock-holmes.pdf */,
+			);
+			path = "PDF files";
+			sourceTree = "<group>";
+		};
+		5480CC28264C551000C5D558 /* AppSceneDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				5451B9AC26493BAA00470B5F /* AppDelegate.h */,
+				5451B9AD26493BAA00470B5F /* AppDelegate.m */,
+				5451B9AF26493BAA00470B5F /* SceneDelegate.h */,
+				5451B9B026493BAA00470B5F /* SceneDelegate.m */,
+			);
+			path = AppSceneDelegates;
+			sourceTree = "<group>";
+		};
+		54A9E0F2264B81B200C41498 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5451B9B226493BAA00470B5F /* ParentViewController.h */,
+				5451B9B326493BAA00470B5F /* ParentViewController.m */,
+				5480CC21264C380500C5D558 /* PDFViewController.h */,
+				5480CC22264C380500C5D558 /* PDFViewController.m */,
+				54A9E0EA264B50FC00C41498 /* ImageViewController.h */,
+				54A9E0EB264B50FC00C41498 /* ImageViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5451B9A826493BAA00470B5F /* Viewer App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5451B9C226493BAC00470B5F /* Build configuration list for PBXNativeTarget "Viewer App" */;
+			buildPhases = (
+				5451B9A526493BAA00470B5F /* Sources */,
+				5451B9A626493BAA00470B5F /* Frameworks */,
+				5451B9A726493BAA00470B5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Viewer App";
+			productName = "Viewer App";
+			productReference = 5451B9A926493BAA00470B5F /* Viewer App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5451B9A126493BAA00470B5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					5451B9A826493BAA00470B5F = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 5451B9A426493BAA00470B5F /* Build configuration list for PBXProject "Viewer App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5451B9A026493BAA00470B5F;
+			productRefGroup = 5451B9AA26493BAA00470B5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5451B9A826493BAA00470B5F /* Viewer App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5451B9A726493BAA00470B5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5451B9BC26493BAC00470B5F /* LaunchScreen.storyboard in Resources */,
+				5475DFB226498E5C0094B7DA /* relativity.pdf in Resources */,
+				5451B9B926493BAC00470B5F /* Assets.xcassets in Resources */,
+				5475DFB026498E4B0094B7DA /* contents.xml in Resources */,
+				5475DFAC26498E3C0094B7DA /* adventures-of-sherlock-holmes.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5451B9A526493BAA00470B5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A9E0EC264B50FC00C41498 /* ImageViewController.m in Sources */,
+				5451B9B426493BAA00470B5F /* ParentViewController.m in Sources */,
+				5451B9AE26493BAA00470B5F /* AppDelegate.m in Sources */,
+				5480CC27264C4DF200C5D558 /* Constants.h in Sources */,
+				5451B9BF26493BAC00470B5F /* main.m in Sources */,
+				5451B9B126493BAA00470B5F /* SceneDelegate.m in Sources */,
+				5480CC23264C380500C5D558 /* PDFViewController.m in Sources */,
+				54A9E0F1264B567D00C41498 /* Data.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5451B9BA26493BAC00470B5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5451B9BB26493BAC00470B5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5451B9C026493BAC00470B5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5451B9C126493BAC00470B5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5451B9C326493BAC00470B5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MG5HUZ45F2;
+				INFOPLIST_FILE = "Viewer App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jayvejavier.Viewer-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5451B9C426493BAC00470B5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MG5HUZ45F2;
+				INFOPLIST_FILE = "Viewer App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jayvejavier.Viewer-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5451B9A426493BAA00470B5F /* Build configuration list for PBXProject "Viewer App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5451B9C026493BAC00470B5F /* Debug */,
+				5451B9C126493BAC00470B5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5451B9C226493BAC00470B5F /* Build configuration list for PBXNativeTarget "Viewer App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5451B9C326493BAC00470B5F /* Debug */,
+				5451B9C426493BAC00470B5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5451B9A126493BAA00470B5F /* Project object */;
+}
